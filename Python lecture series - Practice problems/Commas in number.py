@@ -1,4 +1,3 @@
-# Assuming number of input integers to be 5
 def addCommas(a):
     a = "".join([l + ','*(n%3 == 2) for n, l in enumerate(list(a[::-1]))])[::-1]
     if(a[0] == ','):
